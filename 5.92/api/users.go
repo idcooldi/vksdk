@@ -1,7 +1,7 @@
-package api // import "github.com/SevereCloud/vksdk/5.92/api"
+package api // import "github.com/idcooldi/vksdk/5.92/api"
 
 import (
-	"github.com/SevereCloud/vksdk/5.92/object"
+	"github.com/idcooldi/vksdk/5.92/object"
 )
 
 // UsersGetResponse users.get response
@@ -43,7 +43,7 @@ type UsersGetSubscriptionsResponse struct {
 // extended=0
 //
 // https://vk.com/dev/users.getSubscriptions
-// BUG(SevereCloud): UsersGetSubscriptions bad response with extended=1
+// BUG(idcooldi): UsersGetSubscriptions bad response with extended=1
 func (vk *VK) UsersGetSubscriptions(params map[string]string) (response UsersGetSubscriptionsResponse, vkErr Error) {
 	params["extended"] = "0"
 	vk.RequestUnmarshal("users.getSubscriptions", params, &response, &vkErr)

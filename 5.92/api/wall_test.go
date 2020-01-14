@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/SevereCloud/vksdk/5.92/object"
+	"github.com/idcooldi/vksdk/5.92/object"
 )
 
 func TestVK_WallSearch(t *testing.T) {
@@ -675,7 +675,7 @@ func TestVK_WallPost(t *testing.T) {
 		{
 			name: "WallPost empty",
 			argParams: map[string]string{
-				"message": "Test post from github.com SevereCloud/vksdk",
+				"message": "Test post from github.com idcooldi/vksdk",
 			},
 		},
 		{

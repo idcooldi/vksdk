@@ -1,4 +1,4 @@
-package object // import "github.com/SevereCloud/vksdk/5.92/object"
+package object // import "github.com/idcooldi/vksdk/5.92/object"
 
 // SecureLevel struct
 type SecureLevel struct {

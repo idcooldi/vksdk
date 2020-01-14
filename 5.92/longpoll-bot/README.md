@@ -92,10 +92,10 @@ package main
 import (
 	"log"
 
-	"github.com/SevereCloud/vksdk/5.92/api"
+	"github.com/idcooldi/vksdk/5.92/api"
 
-	longpoll "github.com/SevereCloud/vksdk/5.92/longpoll-bot"
-	"github.com/SevereCloud/vksdk/5.92/object"
+	longpoll "github.com/idcooldi/vksdk/5.92/longpoll-bot"
+	"github.com/idcooldi/vksdk/5.92/object"
 )
 
 func main() {

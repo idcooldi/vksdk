@@ -21,7 +21,7 @@ vk := api.Init("<TOKEN>")
 - `groups.get` с extended=1 -> `vk.GroupsGetExtended(map[string]string{})`
 
 Список всех методов можно найти на 
-[данной странице](https://godoc.org/github.com/SevereCloud/vksdk/5.92/api#VK).
+[данной странице](https://godoc.org/github.com/idcooldi/vksdk/5.92/api#VK).
 
 Пример запроса [`users.get`](https://vk.com/dev/users.get)
 
@@ -36,7 +36,7 @@ if vkErr.Code != 0 {
 
 Описание ошибок:
 - [документация VK](https://vk.com/dev/errors)
-- [константы](https://godoc.org/github.com/SevereCloud/vksdk/5.92/object#pkg-constants)
+- [константы](https://godoc.org/github.com/idcooldi/vksdk/5.92/object#pkg-constants)
 
 Если `vkErr.Code` оказался отрицательным, значит ошибка на стороне клиента.
 

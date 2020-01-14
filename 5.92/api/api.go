@@ -1,4 +1,4 @@
-package api // import "github.com/SevereCloud/vksdk/5.92/api"
+package api // import "github.com/idcooldi/vksdk/5.92/api"
 
 import (
 	"bytes"
@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SevereCloud/vksdk/5.92/object"
+	"github.com/idcooldi/vksdk/5.92/object"
 )
 
 const (
